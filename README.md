@@ -59,9 +59,9 @@ timestamp,description,details,category,host,mitre_tactic
 2026-03-15 02:31:00,PowerShell encoded command executed,"cmd: powershell -enc JABjAG...",Execution,WKSTN-047,T1059.001
 2026-03-15 03:05:00,LSASS memory read via ProcDump,"C:\Windows\Temp\lsass.dmp written (39 MB)",Credential Access,WKSTN-047,T1003.001
 2026-03-16 03:22:00,SMB lateral movement to DC,"Net use \\DC01\ADMIN$ - auth with harvested creds",Lateral Movement,WKSTN-047,T1021.002
-2024-03-16 04:01:00,Cobalt Strike beacon C2 check-in,"HTTPS to 104.21.x.x:443 - 60s jitter",Command & Control,DC01,T1071.001
-2024-03-17 04:47:00,Volume Shadow Copies deleted,"vssadmin delete shadows /all /quiet",Impact,DC01,T1490
-2024-03-17 04:52:00,Ransomware deployment,"BLACKCAT dropped to C:\ProgramData - 847 files encrypted",Impact,DC01,T1486
+2026-03-16 04:01:00,Cobalt Strike beacon C2 check-in,"HTTPS to 104.21.x.x:443 - 60s jitter",Command & Control,DC01,T1071.001
+2026-03-17 04:47:00,Volume Shadow Copies deleted,"vssadmin delete shadows /all /quiet",Impact,DC01,T1490
+2026-03-17 04:52:00,Ransomware deployment,"BLACKCAT dropped to C:\ProgramData - 847 files encrypted",Impact,DC01,T1486
 ```
 
 | Column | Required | Description |
