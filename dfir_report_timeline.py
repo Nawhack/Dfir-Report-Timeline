@@ -325,7 +325,7 @@ CATEGORY_COLORS = {
 }
 
 TLP_COLORS = {
-    "CLEAR":        ("#000000","#333333","#cccccc"),
+    "CLEAR":        ("#000000","#ffffff","#ffffff"),
     "GREEN":        ("#000000","#33cc00","#33cc00"),
     "AMBER":        ("#000000","#ffa500","#ffa500"),
     "AMBER+STRICT": ("#000000","#ffa500","#ffa500"),
