@@ -13,6 +13,10 @@ Generate incident timelines in the style of [The DFIR Report](https://thedfirrep
 
 ---
 
+![Timeline example](dfir_report_timeline.png)
+
+---
+
 ## Requirements
 
 ```
