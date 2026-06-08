@@ -40,7 +40,7 @@ python dfir_timeline.py -i tracker.xlsx -o timeline.png -t "IR-2024-031"
 # Full metadata
 python dfir_timeline.py -i events.csv -o timeline.png \
     --tlp AMBER \
-    --case-id "IR-2024-042" \
+    --case-id "IR-2026-042" \
     --author "CERT Acme" \
     --contact "cert@acme.com" \
     --logo logo.png \
